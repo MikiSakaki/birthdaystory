@@ -135,7 +135,7 @@
     
     <div class="content-container">
         <div class="container">
-            <img src="/images/book_0.png" alt="0.jpg" class="baby-image">
+            <img src="{{ asset('/images/book_0.png') }}" alt="0.jpg" class="baby-image">
             <div class="overlay-text_book_0">
                 {{ $babyName }}の<br>Birthday Story
             </div>
